@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle       : Spam Analysis Package\nsubtitle    : How to use\nauthor      : Juan Manuel Hernandez\njob         : Developer\nframework   : io2012        # {io2012, html5slides, shower, dzslides, ...}\nhighlighter : highlight.js  # {highlight.js, prettify, highlight}\nhitheme     : tomorrow      # \nwidgets     : []            # {mathjax, quiz, bootstrap}\nmode        : selfcontained # {standalone, draft}\nknit        : slidify::knit2slides\n---\n\n## Introduction\n\nThis is a demo Spam Analysis package for the Data Product Course Project.\n\n1. How to use it\n2. Demo of use\n3. Link for check this package\n4. References\n\n--- .class #id \n\n## How to Use It\n\nTo load the library in R, you have to have first the library installed and loaded\n\ninstall.packages(\"devtools\")\nlibrary(devtools)\n\nThen, you can load the library with the following command\n\ninstall_github(\"juanmahernandez/DevelopingDataProducts.CourseProject/SpamAnalysis/\")\nlibrary(SpamAnalysis)\n\n---\n## Demo of use\n\nThere is a function named checkSpam, where with only passing a parameter with\na string with a sentence, returns if the sentence is classfied as spam or nonspam.\n\nHere there are two examples, one with a sentence classified as spam, and other \nas a nonspam.\n\n### Spam\ncheckSpam(\"BUUUY IT NOOOOOWWW!!!\")\n\n### NonSpam\ncheckSpam(\"Some ramdom sentence saying nothing important!\")\n\nIf you want to check this further, there is a web app available.\nhttps://www.shinyapps.io/admin/#/dashboard\n\n---\n## Link to check this package\n\nThe link to check the package on github is:\n\n[]\n\n---\n## References\n\nI've used for creating the spam classification model, the data stored in the kernlab\nlibrary, available openly for anyone.\n\n\n\n\n\n",
+    "created" : 1473988715687.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2484249137",
+    "id" : "F38C25DE",
+    "lastKnownWriteTime" : 1474859309,
+    "last_content_update" : 1474859309333,
+    "path" : "~/Documents/Proyectos/R/8. Developing Data Products/Project Course/Presentation/index.Rmd",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
